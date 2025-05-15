@@ -9,27 +9,28 @@ Dark and light syntax themes with green accents inspired by
 **OKSolar** is a redesign of
 [Solarized](https://ethanschoonover.com/solarized/), featuring:
 
-- **Perceptual Uniformity:**  
-  Utilizes the OKLab color space to achieve consistent perceptual brightness across colors, ensuring uniform contrast and readability.  
+-   **Perceptual Uniformity:**\
+    Utilizes the OKLab color space to achieve consistent perceptual brightness
+    across colors, ensuring uniform contrast and readability.
 
-- **Contrast Consistency:**  
-  Designed to maintain equal contrast between background and accent colors in both light and dark modes, improving legibility in varying lighting conditions.  
+-   **Contrast Consistency:**\
+    Designed to maintain equal contrast between background and accent colors in
+    both light and dark modes, improving legibility in varying lighting
+    conditions.
 
-- **Background Contrast:**  
-  Offers increased contrast between text and background, enhancing readability, especially in bright environments.  
+-   **Background Contrast:**\
+    Offers increased contrast between text and background, enhancing
+    readability, especially in bright environments.
 
 --------------------------------------------------------------------------------
 
-![Black](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-black.png)
-
-# OKSolar Dark Theme
-
-![Dark](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-dark.png)
-
-# OKSolar Light Theme
+# OKSolar Light
 
 ![Light](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-light.png)
 
+# OKSolar Dark
+
+![Dark](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-dark.png)
 
 --------------------------------------------------------------------------------
 
@@ -48,8 +49,8 @@ Alternatively, press `CMD + Shift + P`, type `> color theme`, and choose
 
 ## Want More?
 
-The [main repository](https://github.com/dieghernan/oksolar-theme) also
-includes **consistent versions** of this theme in the [`extras`
+The [main repository](https://github.com/dieghernan/oksolar-theme) also includes
+**consistent versions** of this theme in the [`extras`
 folder](https://github.com/dieghernan/oksolar-theme/tree/main/extras) for the
 following editors and syntax highlighting libraries:
 
