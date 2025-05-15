@@ -1,0 +1,60 @@
+{
+  "name": "oksolar-theme",
+  "displayName": "OKSolar Themes",
+  "description": "VS Code themes based on OKSolar by Zack Voase",
+  "publisher": "dieghernan",
+  "license": "MIT",
+  "version": "0.1.0",
+  "maintainers": [
+    "dieghernan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dieghernan/oksolar-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dieghernan/oksolar-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "sponsor": {
+    "url": "https://github.com/dieghernan/oksolar-theme?sponsor=1"
+  },
+  "keywords": [
+    "oksolar",
+    "theme",
+    "dark-theme",
+    "light-theme",
+    "white-theme",
+    "black-theme",
+    "solarized"
+  ],
+  "icon": "static/icon.png",
+  "galleryBanner": {
+    "color": "#103C48",
+    "theme": "dark"
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/github/license/dieghernan/oksolar-theme",
+      "href": "https://github.com/dieghernan/oksolar-theme/blob/main/LICENSE",
+      "description": "MIT License"
+    },
+    {
+      "url": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+      "href": "https://github.com/dieghernan/oksolar-theme/pulls",
+      "description": "PRs Welcome"
+    }
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "TODO"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+GIMP Palette
+Name: OKSolar Dark
+# Colors from OKSolar Project
+  0  45  56 bg_0
+  9  57  70 bg_1
+101 115 119 bg_2
+ 91 114 121 dim_0
+152 168 168 fg_0
+143 170 171 fg_1
+242  55  73 red
+129 149   0 green
+172 131   0 yellow
+ 43 144 216 blue
+221  69 157 magenta
+ 37 157 148 cyan
+213 101   0 orange
+125 128 209 violet
