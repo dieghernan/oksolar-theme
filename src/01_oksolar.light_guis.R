@@ -2,7 +2,7 @@
 
 library(tidyverse)
 library(jsonlite)
-tminput <- "./extras/textmate/Selenized Dark.tmTheme"
+tminput <- "./extras/textmate/OKSolar Light.tmTheme"
 
 # Beautify tmTheme
 xml2::read_xml(tminput) %>%

@@ -1,7 +1,7 @@
 {
   "name": "oksolar-theme",
-  "displayName": "OKSolar Themes",
-  "description": "VS Code themes based on OKSolar by Zack Voase",
+  "displayName": "OKSolar Theme",
+  "description": "VS Code theme based on OKSolar by Zack Voase",
   "publisher": "dieghernan",
   "license": "MIT",
   "version": "0.1.0",
@@ -29,14 +29,12 @@
     "theme",
     "dark-theme",
     "light-theme",
-    "white-theme",
-    "black-theme",
     "solarized"
   ],
   "icon": "static/icon.png",
   "galleryBanner": {
-    "color": "#103C48",
-    "theme": "dark"
+    "color": "#FBF7EF",
+    "theme": "light"
   },
   "badges": [
     {
@@ -53,7 +51,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "TODO"
+        "label": "OKSolar Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oksolar-dark-color-theme.json"
+      },
+      {
+        "label": "OKSolar Light",
+        "uiTheme": "vs",
+        "path": "./themes/oksolar-light-color-theme.json"
       }
     ]
   }

@@ -21,10 +21,7 @@ output
 
 tmtheme2vscode(tminput, output)
 
-# Modify name for store
 js <- read_json(output)
-js$name <- paste0(js$name, " Theme")
-
 js |>
   write_json(path = output, auto_unbox = TRUE, pretty = TRUE)
 

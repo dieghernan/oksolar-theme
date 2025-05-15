@@ -1,4 +1,4 @@
-# OKSolar
+# OKSolar Theme
 
 ![OKSolar
 Banner](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/banner.png)

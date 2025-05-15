@@ -84,7 +84,7 @@ new_tm <- tm_lines
 
 for (c in ncols) {
   new_tm <- gsub(tb$Selenized_Dark[c],
-    tb$Selenized_Light[c], new_tm,
+    tb$OKSolar_Light[c], new_tm,
     ignore.case = TRUE
   )
 }
@@ -92,64 +92,37 @@ for (c in ncols) {
 # Rename and output
 new_tm <- gsub(
   "dark.selenized_dark",
-  "light.selenized_light", new_tm
+  "light.oksolar_light", new_tm
 )
-new_tm <- gsub("Selenized Dark", "Selenized Light", new_tm)
+new_tm <- gsub("Selenized Dark", "OKSolar Light", new_tm)
 
-output_f <- gsub("Selenized Dark", "Selenized Light", input_tm)
+output_f <- file.path("extras/textmate/OKSolar Light.tmTheme")
+
+
 
 writeLines(new_tm, output_f)
 
 # Create also a new R script
 r_lines <- readLines(input_r)
-new_r <- gsub("Selenized Dark", "Selenized Light", r_lines)
+new_r <- gsub("Selenized Dark", "OKSolar Light", r_lines)
 
-output_r <- gsub("selenized.dark", "selenized.light", input_r)
-
-writeLines(new_r, output_r)
-
-
-
-### White ----
-
-new_tm <- tm_lines
-
-for (c in ncols) {
-  new_tm <- gsub(tb$Selenized_Dark[c],
-    tb$Selenized_White[c], new_tm,
-    ignore.case = TRUE
-  )
-}
-
-# Rename and output
-new_tm <- gsub(
-  "dark.selenized_dark",
-  "light.selenized_white", new_tm
-)
-new_tm <- gsub("Selenized Dark", "Selenized White", new_tm)
-
-output_f <- gsub("Selenized Dark", "Selenized White", input_tm)
-
-writeLines(new_tm, output_f)
-
-# Create also a new R script
-r_lines <- readLines(input_r)
-new_r <- gsub("Selenized Dark", "Selenized White", r_lines)
-
-output_r <- gsub("selenized.dark", "selenized.white", input_r)
+output_r <- "./src/01_oksolar.light_guis.R"
 
 writeLines(new_r, output_r)
+
+
+
 
 # 2. CSS variants ----
 
 
 ## Templates based on selenized.dark -----
 
-css_templates <- list.files("./src/themes", "selenized.dark",
+css_templates <- list.files("./src/selenized", "css$",
   full.names = TRUE
 )
 
-### Black ----
+### Dark ----
 
 for (this_template in css_templates) {
   css_lines <- readLines(this_template)
@@ -157,15 +130,16 @@ for (this_template in css_templates) {
 
   for (c in ncols) {
     new_css <- gsub(tb$Selenized_Dark[c],
-      tb$Selenized_Black[c], new_css,
+      tb$OKSolar_Dark[c], new_css,
       ignore.case = TRUE
     )
   }
 
   # Rename and output
-  new_css <- gsub("selenized.dark", "selenized.black", new_css)
+  new_css <- gsub("selenized.dark", "oksolar.dark", new_css)
 
-  output_f <- gsub("selenized.dark", "selenized.black", this_template)
+  output_f <- gsub("selenized.dark", "oksolar.dark", this_template)
+  output_f <- gsub("selenized/", "themes/", output_f)
 
   writeLines(new_css, output_f)
 }
@@ -178,36 +152,16 @@ for (this_template in css_templates) {
 
   for (c in ncols) {
     new_css <- gsub(tb$Selenized_Dark[c],
-      tb$Selenized_Light[c], new_css,
+      tb$OKSolar_Light[c], new_css,
       ignore.case = TRUE
     )
   }
 
   # Rename and output
-  new_css <- gsub("selenized.dark", "selenized.light", new_css)
+  new_css <- gsub("selenized.dark", "oksolar.light", new_css)
 
-  output_f <- gsub("selenized.dark", "selenized.light", this_template)
-
-  writeLines(new_css, output_f)
-}
-
-### White ----
-
-for (this_template in css_templates) {
-  css_lines <- readLines(this_template)
-  new_css <- css_lines
-
-  for (c in ncols) {
-    new_css <- gsub(tb$Selenized_Dark[c],
-      tb$Selenized_White[c], new_css,
-      ignore.case = TRUE
-    )
-  }
-
-  # Rename and output
-  new_css <- gsub("selenized.dark", "selenized.white", new_css)
-
-  output_f <- gsub("selenized.dark", "selenized.white", this_template)
+  output_f <- gsub("selenized.dark", "oksolar.light", this_template)
+  output_f <- gsub("selenized/", "themes/", output_f)
 
   writeLines(new_css, output_f)
 }
