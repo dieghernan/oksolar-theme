@@ -1,5 +1,8 @@
 # OKSolar Theme
 
+[![Preview in
+vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/editor/theme/dieghernan.oksolar-theme/OKSolar%20Light)
+
 ![OKSolar
 Banner](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/banner.png)
 
@@ -45,7 +48,10 @@ To install:
     -   `OKSolar Light`
 
 Alternatively, press `CMD + Shift + P`, type `> color theme`, and choose
-`OKSolar Dark` or any other variant.
+`OKSolar Light` or any other variant.
+
+See also OKSolar Theme in the [VisualStudio
+Marketplace](https://marketplace.visualstudio.com/items?itemName=dieghernan.oksolar-theme).
 
 ## Want More?
 
