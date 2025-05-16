@@ -6,8 +6,8 @@ vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://
 ![OKSolar
 Banner](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/banner.png)
 
-Dark and light syntax themes with green accents inspired by
-[OKSolar](https://meat.io/oksolar) by Zack Voase.
+Dark and light syntax themes inspired by [OKSolar](https://meat.io/oksolar) by
+Zack Voase.
 
 **OKSolar** is a redesign of
 [Solarized](https://ethanschoonover.com/solarized/), featuring:
@@ -25,6 +25,15 @@ Dark and light syntax themes with green accents inspired by
     Offers increased contrast between text and background, enhancing
     readability, especially in bright environments.
 
+-   Five themes:
+
+    -   `OKSolar Dark`
+    -   `OKSolar Light`
+    -   `OKSolar Red`
+    -   `OKSolar Green`
+    -   `OKSolar Purple`
+    -   `OKSolar Blue`
+
 --------------------------------------------------------------------------------
 
 # OKSolar Light
@@ -34,6 +43,22 @@ Dark and light syntax themes with green accents inspired by
 # OKSolar Dark
 
 ![Dark](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-dark.png)
+
+# OKSolar Red
+
+![Red](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-red.png)
+
+# OKSolar Green
+
+![Green](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-green.png)
+
+# OKSolar Purple
+
+![Purple](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-purple.png)
+
+# OKSolar Blue
+
+![Blue](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-blue.png)
 
 --------------------------------------------------------------------------------
 
@@ -46,6 +71,10 @@ To install:
 3.  Go to `Color Themes` and select any of our themes:
     -   `OKSolar Dark`
     -   `OKSolar Light`
+    -   `OKSolar Red`
+    -   `OKSolar Green`
+    -   `OKSolar Purple`
+    -   `OKSolar Blue`
 
 Alternatively, press `CMD + Shift + P`, type `> color theme`, and choose
 `OKSolar Light` or any other variant.

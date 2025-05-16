@@ -4,7 +4,7 @@
   "description": "VS Code theme based on OKSolar by Zack Voase",
   "publisher": "dieghernan",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "maintainers": [
     "dieghernan"
   ],
@@ -51,14 +51,34 @@
   "contributes": {
     "themes": [
       {
+        "label": "OKSolar Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oksolar-blue-color-theme.json"
+      },
+      {
         "label": "OKSolar Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/oksolar-dark-color-theme.json"
       },
       {
+        "label": "OKSolar Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oksolar-green-color-theme.json"
+      },
+      {
         "label": "OKSolar Light",
         "uiTheme": "vs",
         "path": "./themes/oksolar-light-color-theme.json"
+      },
+      {
+        "label": "OKSolar Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oksolar-purple-color-theme.json"
+      },
+      {
+        "label": "OKSolar Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oksolar-red-color-theme.json"
       }
     ]
   }

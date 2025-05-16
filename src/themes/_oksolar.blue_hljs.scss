@@ -1,0 +1,86 @@
+/* 
+ * oksolar.blue theme
+ * author Diego H <https://github.com/dieghernan/>
+ */
+
+$bg_0: #23243B;
+$bg_1: #2D2E46;
+$bg_2: NOFOUND;
+$dim_0: #6A6C7E;
+$fg_0: #98A7A6;
+$fg_1: #64B4B0;
+$red: #F23749;
+$green: #819500;
+$yellow: #AC8300;
+$blue: #2B90D8;
+$magenta: #DD459D;
+$cyan: #259D94;
+$orange: #D56500;
+$violet: #7D80D1;
+$br_red: #F23749;
+$br_green: #819500;
+$br_yellow: #AC8300;
+$br_blue: #2B90D8;
+$br_magenta: #DD459D;
+$br_cyan: #259D94;
+$br_orange: #D56500;
+$br_violet: #7D80D1;
+
+
+$foreground: $fg_0; // Base color: usually on Settings > Foreground
+$background: $bg_0; // Background color: usually on Settings > Background
+$highlight: $bg_1;
+$comment: $dim_0;
+$constant_character_escape: $red;
+$constant_language: $cyan;
+$constant_numeric: $cyan;
+$entity_name: $blue;
+$entity_name_tag_css: $green;
+$entity_other_attribute-name: $blue;
+$entity_other_attribute-name_id: $green;
+$entity_other_attribute-name_html: $green;
+$invalid: $br_red;
+$keyword_control: $green;
+$keyword_control_import: $orange;
+$keyword_operator: $green;
+$markup_heading: $br_yellow;
+$markup_raw: $blue;
+$storage_type: $green;
+$string: $cyan;
+$support: $blue;
+$support_type: $yellow;
+$support_type_property-name: $blue;
+$variable: $fg_0;
+$variable_language: $red;
+$variable_other: $orange;
+
+
+
+$foreground: $fg_0; // Base color: usually on Settings > Foreground
+$background: $bg_0; // Background color: usually on Settings > Background
+$highlight: $fg_1;
+$comment: $dim_0;
+$constant_character_escape: $red;
+$constant_language: $cyan;
+$constant_numeric: $cyan;
+$entity_name: $blue;
+$entity_name_tag_css: $green;
+$entity_other_attribute-name: $blue;
+$entity_other_attribute-name_id: $green;
+$entity_other_attribute-name_html: $green;
+$invalid: $br_red;
+$keyword_control: $green;
+$keyword_control_import: $orange;
+$keyword_operator: $green;
+$markup_heading: $br_yellow;
+$markup_raw: $blue;
+$storage_type: $green;
+$string: $cyan;
+$support: $blue;
+$support_type: $yellow;
+$support_type_property-name: $blue;
+$variable: $fg_0;
+$variable_language: $red;
+$variable_other: $orange;
+
+@import "./src/_hljs.scss";
