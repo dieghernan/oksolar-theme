@@ -33,12 +33,17 @@ Zack Voase.
     -   `OKSolar Green`
     -   `OKSolar Purple`
     -   `OKSolar Blue`
+    -   `OKSolar Sky`
 
 --------------------------------------------------------------------------------
 
 # OKSolar Light
 
 ![Light](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-light.png)
+
+# OKSolar Sky
+
+![Sky](https://raw.githubusercontent.com/dieghernan/oksolar-theme/main/static/screenshot-sky.png)
 
 # OKSolar Dark
 
@@ -75,6 +80,7 @@ To install:
     -   `OKSolar Green`
     -   `OKSolar Purple`
     -   `OKSolar Blue`
+    -   `OKSolar Sky`
 
 Alternatively, press `CMD + Shift + P`, type `> color theme`, and choose
 `OKSolar Light` or any other variant.

@@ -1,10 +1,10 @@
-/*  oksolar.blue theme author Diego H <https://github.com/dieghernan/> */
+/*  oksolar.sky theme author Diego H <https://github.com/dieghernan/> */
 /* Source: https://github.com/dieghernan/oksolar-theme */
 pre code.hljs { display: block; overflow-x: auto; padding: 1em; }
 
 code.hljs { padding: 3px 5px; }
 
-.hljs { display: block; overflow-x: auto; padding: 0.5em; color: #B19F95; background: #1A2740; }
+.hljs { display: block; overflow-x: auto; padding: 0.5em; color: #796E66; background: #EFF9FE; }
 
 .hljs-keyword { color: #819500; }
 
@@ -18,7 +18,7 @@ code.hljs { padding: 3px 5px; }
 
 .hljs-operator { color: #819500; }
 
-.hljs-punctuation { color: #B19F95; }
+.hljs-punctuation { color: #796E66; }
 
 .hljs-property { color: #2B90D8; }
 
@@ -28,13 +28,13 @@ code.hljs { padding: 3px 5px; }
 
 .hljs-char.escape_ { color: #F23749; }
 
-.hljs-subst { color: #B19F95; }
+.hljs-subst { color: #796E66; }
 
-.hljs-symbol { color: #B19F95; }
+.hljs-symbol { color: #796E66; }
 
 .hljs-class { color: #2B90D8; }
 
-.hljs-variable { color: #B19F95; }
+.hljs-variable { color: #796E66; }
 
 .hljs-variable.language_ { color: #F23749; }
 
@@ -42,7 +42,7 @@ code.hljs { padding: 3px 5px; }
 
 .hljs-title { color: #2B90D8; }
 
-.hljs-comment { color: #646D7F; }
+.hljs-comment { color: #8FAAAE; }
 
 .hljs-meta { color: #819500; font-weight: bold; }
 
@@ -56,13 +56,13 @@ code.hljs { padding: 3px 5px; }
 
 .hljs-code { color: #2B90D8; }
 
-.hljs-strong { color: #B19F95; font-weight: bold; }
+.hljs-strong { color: #796E66; font-weight: bold; }
 
-.hljs-emphasis { color: #B19F95; font-style: italic; }
+.hljs-emphasis { color: #796E66; font-style: italic; }
 
 .hljs-selector-id { color: #819500; }
 
-.hljs-quote { color: #B19F95; }
+.hljs-quote { color: #796E66; }
 
 .hljs-selector-class { color: #2B90D8; }
 

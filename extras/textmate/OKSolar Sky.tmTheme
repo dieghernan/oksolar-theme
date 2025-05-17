@@ -7,34 +7,34 @@
 <plist version="1.0">
   <dict>
     <key>name</key>
-    <string>OKSolar Blue</string>
+    <string>OKSolar Sky</string>
     <key>settings</key>
     <array>
       <dict>
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#1A2740</string>
+          <string>#EFF9FE</string>
           <key>caret</key>
-          <string>#B59E91</string>
+          <string>#7A695E</string>
           <key>foreground</key>
-          <string>#B19F95</string>
+          <string>#796E66</string>
           <key>invisibles</key>
-          <string>#26334D</string>
+          <string>#D4EEF9</string>
           <key>lineHighlight</key>
-          <string>#26334D</string>
+          <string>#D4EEF9</string>
           <key>selection</key>
-          <string>#26334D</string>
+          <string>#D4EEF9</string>
           <key>selectionBackground</key>
-          <string>#26334D</string>
+          <string>#D4EEF9</string>
           <key>guide</key>
-          <string>#646D7F</string>
+          <string>#8FAAAE</string>
           <key>activeGuide</key>
-          <string>#646D7F</string>
+          <string>#8FAAAE</string>
           <key>findHighlight</key>
           <string>#AC8300</string>
           <key>findHighlightForeground</key>
-          <string>#1A2740</string>
+          <string>#EFF9FE</string>
         </dict>
       </dict>
       <dict>
@@ -45,7 +45,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#646D7F</string>
+          <string>#8FAAAE</string>
         </dict>
       </dict>
       <dict>
@@ -67,7 +67,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#646D7F</string>
+          <string>#8FAAAE</string>
         </dict>
       </dict>
       <dict>
@@ -78,7 +78,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#646D7F</string>
+          <string>#8FAAAE</string>
           <key>fontStyle</key>
           <string> bold</string>
         </dict>
@@ -113,7 +113,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#B19F95</string>
+          <string>#796E66</string>
         </dict>
       </dict>
       <dict>
@@ -179,7 +179,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#B19F95</string>
+          <string>#796E66</string>
         </dict>
       </dict>
       <dict>
@@ -201,7 +201,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#B19F95</string>
+          <string>#796E66</string>
         </dict>
       </dict>
       <dict>
@@ -278,7 +278,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#B19F95</string>
+          <string>#796E66</string>
         </dict>
       </dict>
       <dict>
@@ -300,7 +300,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#B19F95</string>
+          <string>#796E66</string>
         </dict>
       </dict>
       <dict>
@@ -311,7 +311,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#B19F95</string>
+          <string>#796E66</string>
         </dict>
       </dict>
       <dict>
@@ -474,10 +474,10 @@
     <key>colorSpaceName</key>
     <string>sRGB</string>
     <key>semanticClass</key>
-    <string>theme.dark.oksolar_blue</string>
+    <string>theme.light.oksolar_sky</string>
     <key>author</key>
     <string>dieghernan</string>
     <key>comment</key>
-    <string>OKSolar Blue theme</string>
+    <string>OKSolar Sky theme</string>
   </dict>
 </plist>

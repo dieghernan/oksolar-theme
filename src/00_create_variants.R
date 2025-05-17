@@ -34,31 +34,38 @@ tb$OKSolar_Light <- c(
 ) %>% toupper()
 
 tb$OKSolar_Red <- c(
-  "#3C1C1C", "#4A2726", "NOFOUND", "#7D6665", "#A6A498", "#B1A469", "#F23749",
+  "#3C1C1C", "#4A2726", "#7a6c6c", "#7D6665", "#A6A498", "#B1A469", "#F23749",
   "#819500", "#AC8300", "#2B90D8", "#DD459D", "#259D94", "#D56500", "#7D80D1",
   "#F23749", "#819500", "#AC8300", "#2B90D8", "#DD459D", "#259D94", "#D56500",
   "#7D80D1"
 ) %>% toupper()
 
 tb$OKSolar_Green <- c(
-  "#162D17", "#203A21", "NOFOUND", "#637163", "#A6A498", "#B1A469", "#F23749",
+  "#162D17", "#203A21", "#697169", "#637163", "#A6A498", "#B1A469", "#F23749",
   "#819500", "#AC8300", "#2B90D8", "#DD459D", "#259D94", "#D56500", "#7D80D1",
   "#F23749", "#819500", "#AC8300", "#2B90D8", "#DD459D", "#259D94", "#D56500",
   "#7D80D1"
 ) %>% toupper()
 
 tb$OKSolar_Purple <- c(
-  "#331E34", "#402942", "NOFOUND", "#766776", "#A1A59A", "#98AD75", "#F23749",
+  "#331E34", "#402942", "#746b74", "#766776", "#A1A59A", "#98AD75", "#F23749",
   "#819500", "#AC8300", "#2B90D8", "#DD459D", "#259D94", "#D56500", "#7D80D1",
   "#F23749", "#819500", "#AC8300", "#2B90D8", "#DD459D", "#259D94", "#D56500",
   "#7D80D1"
 ) %>% toupper()
 
 tb$OKSolar_Blue <- c(
-  "#23243b", "#2d2e46", "NOFOUND", "#6a6c7e", "#98a7a6", "#64b4b0", "#F23749",
+  "#1a2740", "#26334d", "#6a707c", "#646d7f", "#b19f95", "#b59e91", "#F23749",
   "#819500", "#AC8300", "#2B90D8", "#DD459D", "#259D94", "#D56500", "#7D80D1",
   "#F23749", "#819500", "#AC8300", "#2B90D8", "#DD459D", "#259D94", "#D56500",
   "#7D80D1"
+) %>% toupper()
+
+tb$OKSolar_Sky <- c(
+  "#eff9fe", "#d4eef9", "#98a7a9", "#8faaae", "#796e66", "#7a695e", "#f23749",
+  "#819500", "#ac8300", "#2b90d8", "#dd459d", "#259d94", "#d56500", "#7d80d1",
+  "#f23749", "#819500", "#ac8300", "#2b90d8", "#dd459d", "#259d94", "#d56500",
+  "#7d80d1"
 ) %>% toupper()
 
 # Iterator
@@ -264,6 +271,38 @@ output_r <- "./src/01_oksolar.blue_guis.R"
 
 writeLines(new_r, output_r)
 
+### Sky ----
+
+new_tm <- tm_lines
+
+for (c in ncols) {
+  new_tm <- gsub(tb$Selenized_Dark[c],
+    tb$OKSolar_Sky[c], new_tm,
+    ignore.case = TRUE
+  )
+}
+
+# Rename and output
+new_tm <- gsub(
+  "dark.selenized_dark",
+  "light.oksolar_sky", new_tm
+)
+new_tm <- gsub("Selenized Dark", "OKSolar Sky", new_tm)
+
+output_f <- file.path("extras/textmate/OKSolar Sky.tmTheme")
+
+
+
+writeLines(new_tm, output_f)
+
+# Create also a new R script
+r_lines <- readLines(input_r)
+new_r <- gsub("Selenized Dark", "OKSolar Sky", r_lines)
+
+output_r <- "./src/01_oksolar.sky_guis.R"
+
+writeLines(new_r, output_r)
+
 
 
 # 2. CSS variants ----
@@ -402,6 +441,28 @@ for (this_template in css_templates) {
   new_css <- gsub("selenized.dark", "oksolar.blue", new_css)
 
   output_f <- gsub("selenized.dark", "oksolar.blue", this_template)
+  output_f <- gsub("selenized/", "themes/", output_f)
+
+  writeLines(new_css, output_f)
+}
+
+### Sky ----
+
+for (this_template in css_templates) {
+  css_lines <- readLines(this_template)
+  new_css <- css_lines
+
+  for (c in ncols) {
+    new_css <- gsub(tb$Selenized_Dark[c],
+      tb$OKSolar_Sky[c], new_css,
+      ignore.case = TRUE
+    )
+  }
+
+  # Rename and output
+  new_css <- gsub("selenized.dark", "oksolar.sky", new_css)
+
+  output_f <- gsub("selenized.dark", "oksolar.sky", this_template)
   output_f <- gsub("selenized/", "themes/", output_f)
 
   writeLines(new_css, output_f)

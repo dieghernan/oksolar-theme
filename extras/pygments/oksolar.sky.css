@@ -1,37 +1,37 @@
-/*  oksolar.blue theme author Diego H <https://github.com/dieghernan/> */
+/*  oksolar.sky theme author Diego H <https://github.com/dieghernan/> */
 /* Source: https://github.com/dieghernan/oksolar-theme */
 /* Overall */
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
 
-.highlight pre { background: #1A2740; color: #B19F95; }
+.highlight pre { background: #EFF9FE; color: #796E66; }
 
-.highlight .hll { background-color: #26334D; }
+.highlight .hll { background-color: #D4EEF9; }
 
 /* Comments */
-.highlight .c { color: #646D7F; }
+.highlight .c { color: #8FAAAE; }
 
-.highlight .cp { color: #646D7F; }
+.highlight .cp { color: #8FAAAE; }
 
-.highlight .cpf { color: #646D7F; }
+.highlight .cpf { color: #8FAAAE; }
 
-.highlight .cm { color: #646D7F; }
+.highlight .cm { color: #8FAAAE; }
 
-.highlight .c1 { color: #646D7F; }
+.highlight .c1 { color: #8FAAAE; }
 
-.highlight .cs { color: #646D7F; }
+.highlight .cs { color: #8FAAAE; }
 
-.highlight .ch { color: #646D7F; }
+.highlight .ch { color: #8FAAAE; }
 
 /* Constants */
 .highlight .se { color: #F23749; }
 
 .highlight .kc { color: #259D94; }
 
-.highlight .no { color: #B19F95; }
+.highlight .no { color: #796E66; }
 
-.highlight .ss { color: #B19F95; }
+.highlight .ss { color: #796E66; }
 
 /* Numbers */
 .highlight .m { color: #259D94; }
@@ -102,29 +102,29 @@
 .language-yaml .highlight .na { color: #819500; }
 
 /* Markup */
-.highlight .gs { color: #B19F95; font-weight: bold; }
+.highlight .gs { color: #796E66; font-weight: bold; }
 
 .highlight .gh { color: #AC8300; }
 
 .highlight .gu { color: #AC8300; }
 
-.highlight .ge { color: #B19F95; font-style: italic; }
+.highlight .ge { color: #796E66; font-style: italic; }
 
 .highlight .ges { font-weight: bold; font-style: italic; }
 
-.highlight .gt { color: #B19F95; }
+.highlight .gt { color: #796E66; }
 
 /* Meta */
-.language-html .highlight .cp { color: #646D7F; font-style: normal; }
+.language-html .highlight .cp { color: #8FAAAE; font-style: normal; }
 
 /* Punctuation */
-.highlight .p { color: #B19F95; }
+.highlight .p { color: #796E66; }
 
-.highlight .pm { color: #B19F95; }
+.highlight .pm { color: #796E66; }
 
-.highlight .dl { color: #B19F95; }
+.highlight .dl { color: #796E66; }
 
-.highlight .sh { color: #B19F95; }
+.highlight .sh { color: #796E66; }
 
 /* Storage */
 .highlight .kd { color: #819500; }
@@ -162,7 +162,7 @@
 .language-css .highlight .nc, .language-css .highlight .nn, .language-scss .highlight .nc, .language-scss .highlight .nn { color: #2B90D8; }
 
 /* Variable */
-.highlight .vi { color: #B19F95; }
+.highlight .vi { color: #796E66; }
 
 .highlight .kp { color: #F23749; }
 

@@ -1,11 +1,11 @@
-/*  oksolar.blue theme author Diego H <https://github.com/dieghernan/> */
+/*  oksolar.sky theme author Diego H <https://github.com/dieghernan/> */
 /* Source: https://github.com/dieghernan/oksolar-theme */
-code[class*="language-"], pre[class*="language-"] { color: #B19F95; background: #1A2740; text-shadow: none; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; }
+code[class*="language-"], pre[class*="language-"] { color: #796E66; background: #EFF9FE; text-shadow: none; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; }
 
 /* Code blocks */
-pre[class*="language-"] { background: #1A2740; border-radius: 0.5em; padding: 1em; margin: 0.5em 0; overflow: auto; height: auto; }
+pre[class*="language-"] { background: #EFF9FE; border-radius: 0.5em; padding: 1em; margin: 0.5em 0; overflow: auto; height: auto; }
 
-:not(pre) > code[class*="language-"], pre[class*="language-"] { background: #1A2740; }
+:not(pre) > code[class*="language-"], pre[class*="language-"] { background: #EFF9FE; }
 
 .token.atrule { color: #819500; }
 
@@ -13,15 +13,15 @@ pre[class*="language-"] { background: #1A2740; border-radius: 0.5em; padding: 1e
 
 .token.attr-value { color: #259D94; }
 
-.token.blockquote.punctuation { color: #B19F95; }
+.token.blockquote.punctuation { color: #796E66; }
 
-.token.bold { color: #B19F95; font-weight: bold; }
+.token.bold { color: #796E66; font-weight: bold; }
 
 .token.boolean { color: #259D94; }
 
-.token.builtin { color: #B19F95; }
+.token.builtin { color: #796E66; }
 
-.token.cdata { color: #646D7F; }
+.token.cdata { color: #8FAAAE; }
 
 .token.char { color: #259D94; }
 
@@ -31,7 +31,7 @@ pre[class*="language-"] { background: #1A2740; border-radius: 0.5em; padding: 1e
 
 .token.code, .token.code.keyword { color: #2B90D8; }
 
-.token.comment { color: #646D7F; }
+.token.comment { color: #8FAAAE; }
 
 .token.constant { color: #259D94; }
 
@@ -39,7 +39,7 @@ pre[class*="language-"] { background: #1A2740; border-radius: 0.5em; padding: 1e
 
 .token.directive { color: #819500; }
 
-.token.doctype { color: #646D7F; }
+.token.doctype { color: #8FAAAE; }
 
 .token.entity { color: #259D94; }
 
@@ -49,7 +49,7 @@ pre[class*="language-"] { background: #1A2740; border-radius: 0.5em; padding: 1e
 
 .token.important { color: #819500; font-weight: bold; }
 
-.token.italic { color: #B19F95; font-style: italic; }
+.token.italic { color: #796E66; font-style: italic; }
 
 .token.keyword.null { color: #259D94; }
 
@@ -61,11 +61,11 @@ pre[class*="language-"] { background: #1A2740; border-radius: 0.5em; padding: 1e
 
 .token.operator { color: #819500; }
 
-.token.prolog { color: #646D7F; }
+.token.prolog { color: #8FAAAE; }
 
 .token.property { color: #AC8300; }
 
-.token.punctuation { color: #B19F95; }
+.token.punctuation { color: #796E66; }
 
 .token.regex { color: #259D94; }
 
@@ -77,7 +77,7 @@ pre[class*="language-"] { background: #1A2740; border-radius: 0.5em; padding: 1e
 
 .token.title { color: #AC8300; }
 
-.token.variable { color: #B19F95; }
+.token.variable { color: #796E66; }
 
 code[class="language-css"] { color: #2B90D8; }
 

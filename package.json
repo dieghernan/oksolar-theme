@@ -79,6 +79,11 @@
         "label": "OKSolar Red",
         "uiTheme": "vs-dark",
         "path": "./themes/oksolar-red-color-theme.json"
+      },
+      {
+        "label": "OKSolar Sky",
+        "uiTheme": "vs",
+        "path": "./themes/oksolar-sky-color-theme.json"
       }
     ]
   }
