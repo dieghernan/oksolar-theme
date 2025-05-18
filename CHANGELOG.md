@@ -1,3 +1,8 @@
+## v0.2.1
+
+-   Also available in <https://open-vsx.org/>
+    [[Link]](https://open-vsx.org/extension/dieghernan/oksolar-theme).
+
 ## v0.2.0
 
 -   Change accent definition to match themes.

@@ -4,7 +4,7 @@
   "description": "VS Code theme based on OKSolar by Zack Voase",
   "publisher": "dieghernan",
   "license": "MIT",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "maintainers": [
     "dieghernan"
   ],
@@ -16,7 +16,7 @@
     "url": "https://github.com/dieghernan/oksolar-theme/issues"
   },
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.95.0"
   },
   "categories": [
     "Themes"
