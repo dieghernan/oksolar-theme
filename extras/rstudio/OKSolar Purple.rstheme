@@ -2402,12 +2402,28 @@
   color: #259D94;
 }
 
+.ace_constant.ace_language {
+  color: #259D94;
+}
+
+.ace_constant.ace_other {
+  color: #259D94;
+}
+
 .ace_cursor {
   color: #98AD75;
 }
 
 .ace_heading {
   color: #AC8300;
+}
+
+.ace_keyword.ace_operator {
+  color: #819500;
+}
+
+.ace_markup.ace_href {
+  color: #259D94;
 }
 
 .ace_print-margin {

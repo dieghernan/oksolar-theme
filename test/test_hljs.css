@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* skeletor Theme for highlight.js Based on https://ramonmcros.com/skeletor-syntax/ prismjs theme Created by Ramón M. Cros, MIT License Copyright (c) 2017 ramonmcros Adapted by Diego H <https://github.com/dieghernan/> */
+/* Source: https://github.com/dieghernan/skeletor-syntax */
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #dce7fd;
+  background: #2b2836;
+}
+
+.hljs-keyword {
+  color: #bd93f9;
+}
+
+.hljs-built_in {
+  color: #bd93f9;
+}
+
+.hljs-type {
+  color: #bd93f9;
+}
+
+.hljs-literal {
+  color: #ff8adb;
+}
+
+.hljs-number {
+  color: #ff8adb;
+}
+
+.hljs-operator {
+  color: #f3e4a2;
+}
+
+.hljs-punctuation {
+  color: #dce7fd;
+}
+
+.hljs-property {
+  color: #dce7fd;
+}
+
+.hljs-regexp {
+  color: #84fba2;
+}
+
+.hljs-string {
+  color: #93b4ff;
+}
+
+.hljs-char.escape_ {
+  color: #93b4ff;
+}
+
+.hljs-subst {
+  color: #dce7fd;
+}
+
+.hljs-symbol {
+  color: #f3e4a2;
+}
+
+.hljs-class {
+  color: #bd93f9;
+}
+
+.hljs-variable {
+  color: #dce7fd;
+}
+
+.hljs-variable.language_ {
+  color: #dce7fd;
+}
+
+.hljs-variable.constant_ {
+  color: #dce7fd;
+}
+
+.hljs-title {
+  color: #bd93f9;
+}
+
+.hljs-comment {
+  color: #655e7f;
+}
+
+.hljs-meta {
+  color: #ff8adb;
+  font-weight: bold;
+}
+
+.hljs-section {
+  color: #bd93f9;
+}
+
+.hljs-name {
+  color: #f3e4a2;
+}
+
+.hljs-attr {
+  color: #bd93f9;
+}
+
+.hljs-attribute {
+  color: #93b4ff;
+}
+
+.hljs-code {
+  color: #84fba2;
+}
+
+.hljs-strong {
+  color: #dce7fd;
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  color: #dce7fd;
+  font-style: italic;
+}
+
+.hljs-selector-id {
+  color: #bd93f9;
+}
+
+.hljs-quote {
+  color: #dce7fd;
+}
+
+.hljs-selector-class {
+  color: #bd93f9;
+}
+
+.hljs-selector-tag, .hljs-selector-attr, .hljs-selector-pseudo {
+  color: #bd93f9;
+}
+
+.hljs-deletion {
+  color: #f36a66;
+}
+
+.language-html .hljs-string {
+  color: #93b4ff;
+}
+
+.language-css.hljs, .language-scss.hljs {
+  color: #ff8adb;
+}
+
+.language-scss .hljs-variable, .language-css .hljs-variable {
+  color: #dce7fd;
+}
+
+.language-scss .hljs-keyword, .language-css .hljs-keyword {
+  color: #f3e4a2;
+}
+
+.language-yaml .hljs-attr {
+  color: #f3e4a2;
+}
+
+.language-yaml .hljs-type {
+  color: #f3e4a2;
+}
+
+.language-yaml .hljs-attr {
+  color: #f3e4a2;
+}
+
+.language-yaml .hljs-type {
+  color: #f3e4a2;
+}
+
+.language-json .hljs-attr {
+  color: #93b4ff;
+}
+
+.language-javascript .hljs-keyword {
+  color: #f3e4a2;
+}
+
+.language-scss .hljs-string {
+  color: #dce7fd;
+}
+
+.language-scss .hljs-variable {
+  color: #84fba2;
+}
+
+.language-php .hljs-keyword {
+  color: #84fba2;
+}
+
+.language-php .hljs-variable.constant_ {
+  color: #93b4ff;
+}
+
+.language-markdown .hljs-bullet {
+  color: #93b4ff;
+}
+
+.language-yaml .hljs-attr {
+  color: #bd93f9;
+}
+
+.language-yaml .hljs-meta {
+  color: #84fba2;
+}
+
+.language-yaml .hljs-string {
+  color: #dce7fd;
+}
