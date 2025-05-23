@@ -1,6 +1,8 @@
-@charset "UTF-8";
-/* skeletor Theme for pygments/Jekyll Based on https://ramonmcros.com/skeletor-syntax/ prismjs theme Created by Ramón M. Cros, MIT License Copyright (c) 2017 ramonmcros Adapted by Diego H <https://github.com/dieghernan/> */
-/* Source: https://github.com/dieghernan/skeletor-syntax */
+/* 
+ * oksolar.blue theme
+ * author Diego H <https://github.com/dieghernan/>
+ */
+/* Source: https://github.com/dieghernan/oksolar-theme */
 /* Overall */
 .highlight table td {
   padding: 5px;
@@ -11,212 +13,212 @@
 }
 
 .highlight pre {
-  background: #2b2836;
-  color: #dce7fd;
+  background: #1A2740;
+  color: #B19F95;
 }
 
 .highlight .hll {
-  background-color: #55535E;
+  background-color: #26334D;
 }
 
 /* Comments */
 .highlight .c {
-  color: #655e7f;
+  color: #646D7F;
 }
 
 .highlight .cp {
-  color: #655e7f;
+  color: #646D7F;
 }
 
 .highlight .cpf {
-  color: #655e7f;
+  color: #646D7F;
 }
 
 .highlight .cm {
-  color: #655e7f;
+  color: #646D7F;
 }
 
 .highlight .c1 {
-  color: #655e7f;
+  color: #646D7F;
 }
 
 .highlight .cs {
-  color: #655e7f;
+  color: #646D7F;
 }
 
 .highlight .ch {
-  color: #655e7f;
+  color: #646D7F;
 }
 
 /* Constants */
 .highlight .se {
-  color: #93b4ff;
+  color: #B19F95;
 }
 
 .highlight .kc {
-  color: #ff8adb;
+  color: #259D94;
 }
 
 .highlight .no {
-  color: #f3e4a2;
+  color: #B19F95;
 }
 
 .highlight .ss {
-  color: #f3e4a2;
+  color: #B19F95;
 }
 
 /* Numbers */
 .highlight .m {
-  color: #ff8adb;
+  color: #259D94;
 }
 
 .highlight .mb {
-  color: #ff8adb;
+  color: #259D94;
 }
 
 .highlight .mh {
-  color: #ff8adb;
+  color: #259D94;
 }
 
 .highlight .mo {
-  color: #ff8adb;
+  color: #259D94;
 }
 
 .highlight .mf {
-  color: #ff8adb;
+  color: #259D94;
 }
 
 .highlight .mi {
-  color: #ff8adb;
+  color: #259D94;
 }
 
 .highlight .il {
-  color: #ff8adb;
+  color: #259D94;
 }
 
 /* Entities */
 .highlight .nc {
-  color: #bd93f9;
+  color: #2B90D8;
 }
 
 .highlight .nd {
-  color: #bd93f9;
+  color: #2B90D8;
 }
 
 .highlight .ne {
-  color: #bd93f9;
+  color: #2B90D8;
 }
 
 .highlight .nf {
-  color: #bd93f9;
+  color: #2B90D8;
 }
 
 .highlight .py {
-  color: #bd93f9;
+  color: #2B90D8;
 }
 
 .highlight .nt {
-  color: #f3e4a2;
+  color: #2B90D8;
 }
 
 .highlight .nn {
-  color: #a7aec2;
+  color: #2B90D8;
 }
 
 .highlight .na {
-  color: #ff8adb;
+  color: #2B90D8;
 }
 
 .language-yaml .highlight .kt {
-  color: #f3e4a2;
+  color: #2B90D8;
 }
 
 .language-css .highlight .nt, .language-css .highlight .nd, .language-scss .highlight .nt, .language-scss .highlight .nd {
-  color: #bd93f9;
+  color: #819500;
 }
 
 .language-css .highlight .nf, .language-scss .highlight .nf {
-  color: #bd93f9;
+  color: #819500;
 }
 
 .language-css .highlight .n, .language-scss .highlight .n {
-  color: #ff8adb;
+  color: #2B90D8;
 }
 
 .language-html .highlight .na {
-  color: #bd93f9;
+  color: #819500;
 }
 
 /* Invalid */
 .highlight .err {
-  color: #f36a66;
+  color: #F23749;
 }
 
 .highlight .gr {
-  color: #f36a66;
+  color: #F23749;
 }
 
 .highlight .ne {
-  color: #f36a66;
+  color: #F23749;
 }
 
 /* Keywords */
 .highlight .k {
-  color: #bd93f9;
+  color: #819500;
 }
 
 .highlight .kn {
-  color: #bd93f9;
+  color: #819500;
 }
 
 .highlight .o {
-  color: #f3e4a2;
+  color: #819500;
 }
 
 .highlight .ow {
-  color: #f3e4a2;
+  color: #819500;
 }
 
 .language-markdown .highlight .sb {
-  color: #84fba2;
+  color: #2B90D8;
 }
 
 .language-css .highlight .k, .language-scss .highlight .k {
-  color: #f3e4a2;
+  color: #819500;
 }
 
 .language-css .highlight .cp, .language-scss .highlight .cp {
-  color: #ff8adb;
+  color: #819500;
   font-weight: bold;
   font-style: normal;
 }
 
 .language-yaml .highlight .nt {
-  color: #84fba2;
+  color: #819500;
   font-weight: bold;
   font-style: normal;
 }
 
 .language-yaml .highlight .na {
-  color: #f3e4a2;
+  color: #819500;
 }
 
 /* Markup */
 .highlight .gs {
-  color: #dce7fd;
+  color: #B19F95;
   font-weight: bold;
 }
 
 .highlight .gh {
-  color: #bd93f9;
+  color: #AC8300;
 }
 
 .highlight .gu {
-  color: #bd93f9;
+  color: #AC8300;
 }
 
 .highlight .ge {
-  color: #dce7fd;
+  color: #B19F95;
   font-style: italic;
 }
 
@@ -226,148 +228,120 @@
 }
 
 .highlight .gt {
-  color: #dce7fd;
+  color: #B19F95;
 }
 
 /* Meta */
 .language-html .highlight .cp {
-  color: #655e7f;
+  color: #646D7F;
   font-style: normal;
 }
 
 /* Punctuation */
 .highlight .p {
-  color: #dce7fd;
+  color: #B19F95;
 }
 
 .highlight .pm {
-  color: #dce7fd;
+  color: #B19F95;
 }
 
 .highlight .dl {
-  color: #dce7fd;
+  color: #B19F95;
 }
 
 .highlight .sh {
-  color: #dce7fd;
+  color: #B19F95;
 }
 
 /* Storage */
 .highlight .kd {
-  color: #bd93f9;
+  color: #819500;
 }
 
 .highlight .kt {
-  color: #bd93f9;
+  color: #819500;
 }
 
 /* String */
 .highlight .s {
-  color: #93b4ff;
+  color: #259D94;
 }
 
 .highlight .sb {
-  color: #93b4ff;
+  color: #259D94;
 }
 
 .highlight .s1 {
-  color: #93b4ff;
+  color: #259D94;
 }
 
 .highlight .s2 {
-  color: #93b4ff;
+  color: #259D94;
 }
 
 .highlight .sx {
-  color: #93b4ff;
+  color: #259D94;
 }
 
 .highlight .si {
-  color: #93b4ff;
+  color: #259D94;
 }
 
 .highlight .sr {
-  color: #84fba2;
+  color: #259D94;
 }
 
 .language-html .highlight .s {
-  color: #93b4ff;
+  color: #259D94;
 }
 
 /* Support */
 .highlight .nb {
-  color: #dce7fd;
+  color: #2B90D8;
 }
 
 .highlight .bp {
-  color: #dce7fd;
+  color: #2B90D8;
 }
 
 .highlight .fm {
-  color: #dce7fd;
+  color: #2B90D8;
 }
 
 .highlight .vm {
-  color: #dce7fd;
+  color: #2B90D8;
 }
 
 .highlight .nl {
-  color: #93b4ff;
+  color: #AC8300;
 }
 
 .language-css .highlight .nc, .language-css .highlight .nn, .language-scss .highlight .nc, .language-scss .highlight .nn {
-  color: #bd93f9;
+  color: #2B90D8;
 }
 
 /* Variable */
 .highlight .vi {
-  color: #dce7fd;
+  color: #B19F95;
 }
 
 .highlight .kp {
-  color: #dce7fd;
+  color: #F23749;
 }
 
 .highlight .nv {
-  color: #dce7fd;
+  color: #D56500;
 }
 
 .highlight .vc {
-  color: #dce7fd;
+  color: #D56500;
 }
 
 .highlight .vg {
-  color: #dce7fd;
+  color: #D56500;
 }
 
-.language-javascript .highlight .k, .language-javascript .highlight .kd {
-  color: #f3e4a2;
-}
-
-.language-scss .highlight .s, .language-scss .highlight .s1, .language-scss .highlight .s2, .language-scss .highlight .sb, .language-scss .highlight .sx, .language-scss .highlight .sr, .language-scss .highlight .no {
-  color: #dce7fd;
-}
-
-.language-scss .highlight .nv, .language-scss .highlight .si {
-  color: #84fba2;
-}
-
-.language-php .highlight .k, .language-php .highlight .kd, .language-php .highlight .kt {
-  color: #84fba2;
-}
-
-.language-php .highlight .n {
-  color: #93b4ff;
-}
-
-.language-yaml .highlight .na {
-  color: #bd93f9;
-}
-
-.language-yaml .highlight .kt {
-  color: #f3e4a2;
-}
-
-.language-yaml .highlight .s, .language-yaml .highlight .s1, .language-yaml .highlight .s2, .language-yaml .highlight .sx, .language-yaml .highlight .sb {
-  color: #dce7fd;
+.highlight .err, .highlight .gr, .highlight .gt, .highlight .ne {
+  font-weight: bold;
 }

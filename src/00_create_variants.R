@@ -97,7 +97,7 @@ new_tm <- gsub(
 
 new_tm <- gsub("Selenized Dark", "OKSolar Dark", new_tm)
 
-output_f <- file.path("extras/textmate/OKSolar Dark.tmTheme")
+output_f <- file.path("dist/tmtheme/OKSolar Dark.tmTheme")
 
 writeLines(new_tm, output_f)
 
@@ -128,7 +128,7 @@ new_tm <- gsub(
 )
 new_tm <- gsub("Selenized Dark", "OKSolar Light", new_tm)
 
-output_f <- file.path("extras/textmate/OKSolar Light.tmTheme")
+output_f <- file.path("dist/tmtheme/OKSolar Light.tmTheme")
 
 
 
@@ -162,7 +162,7 @@ new_tm <- gsub(
 
 new_tm <- gsub("Selenized Dark", "OKSolar Red", new_tm)
 
-output_f <- file.path("extras/textmate/OKSolar Red.tmTheme")
+output_f <- file.path("dist/tmtheme/OKSolar Red.tmTheme")
 
 writeLines(new_tm, output_f)
 
@@ -194,7 +194,7 @@ new_tm <- gsub(
 
 new_tm <- gsub("Selenized Dark", "OKSolar Green", new_tm)
 
-output_f <- file.path("extras/textmate/OKSolar Green.tmTheme")
+output_f <- file.path("dist/tmtheme/OKSolar Green.tmTheme")
 
 writeLines(new_tm, output_f)
 
@@ -226,7 +226,7 @@ new_tm <- gsub(
 
 new_tm <- gsub("Selenized Dark", "OKSolar Purple", new_tm)
 
-output_f <- file.path("extras/textmate/OKSolar Purple.tmTheme")
+output_f <- file.path("dist/tmtheme/OKSolar Purple.tmTheme")
 
 writeLines(new_tm, output_f)
 
@@ -258,7 +258,7 @@ new_tm <- gsub(
 
 new_tm <- gsub("Selenized Dark", "OKSolar Blue", new_tm)
 
-output_f <- file.path("extras/textmate/OKSolar Blue.tmTheme")
+output_f <- file.path("dist/tmtheme/OKSolar Blue.tmTheme")
 
 writeLines(new_tm, output_f)
 
@@ -289,7 +289,7 @@ new_tm <- gsub(
 )
 new_tm <- gsub("Selenized Dark", "OKSolar Sky", new_tm)
 
-output_f <- file.path("extras/textmate/OKSolar Sky.tmTheme")
+output_f <- file.path("dist/tmtheme/OKSolar Sky.tmTheme")
 
 
 

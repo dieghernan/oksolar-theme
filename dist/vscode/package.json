@@ -1,0 +1,90 @@
+{
+  "name": "oksolar-theme",
+  "displayName": "OKSolar Theme",
+  "description": "Themes based on OKSolar by Zack Voase",
+  "publisher": "dieghernan",
+  "license": "MIT",
+  "version": "0.3.0",
+  "maintainers": [
+    "dieghernan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dieghernan/oksolar-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dieghernan/oksolar-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "sponsor": {
+    "url": "https://github.com/dieghernan/oksolar-theme?sponsor=1"
+  },
+  "keywords": [
+    "oksolar",
+    "theme",
+    "dark-theme",
+    "light-theme",
+    "solarized"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#FBF7EF",
+    "theme": "light"
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/github/license/dieghernan/oksolar-theme",
+      "href": "https://github.com/dieghernan/oksolar-theme/blob/main/LICENSE",
+      "description": "MIT License"
+    },
+    {
+      "url": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+      "href": "https://github.com/dieghernan/oksolar-theme/pulls",
+      "description": "PRs Welcome"
+    }
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "OKSolar Blue Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oksolar-blue-color-theme.json"
+      },
+      {
+        "label": "OKSolar Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oksolar-dark-color-theme.json"
+      },
+      {
+        "label": "OKSolar Green Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oksolar-green-color-theme.json"
+      },
+      {
+        "label": "OKSolar Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/oksolar-light-color-theme.json"
+      },
+      {
+        "label": "OKSolar Purple Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oksolar-purple-color-theme.json"
+      },
+      {
+        "label": "OKSolar Red Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oksolar-red-color-theme.json"
+      },
+      {
+        "label": "OKSolar Sky Theme",
+        "uiTheme": "vs",
+        "path": "./themes/oksolar-sky-color-theme.json"
+      }
+    ]
+  }
+}
