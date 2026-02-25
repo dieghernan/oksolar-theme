@@ -12,40 +12,39 @@ Zack Voase.
 **OKSolar** is a redesign of
 [Solarized](https://ethanschoonover.com/solarized/), featuring:
 
--   **Perceptual Uniformity:**\
-    Utilizes the OKLab color space to achieve consistent perceptual brightness
-    across colors, ensuring uniform contrast and readability.
+- **Perceptual Uniformity:**
+  Utilizes the OKLab color space to achieve consistent perceptual brightness
+  across colors, ensuring uniform contrast and readability.
 
--   **Contrast Consistency:**\
-    Designed to maintain equal contrast between background and accent colors in
-    both light and dark modes, improving legibility in varying lighting
-    conditions.
+- **Contrast Consistency:**
+  Designed to maintain equal contrast between background and accent colors in
+  both light and dark modes, improving legibility in varying lighting
+  conditions.
 
--   **Background Contrast:**\
-    Offers increased contrast between text and background, enhancing
-    readability, especially in bright environments.
+- **Background Contrast:**
+  Offers increased contrast between text and background, enhancing
+  readability, especially in bright environments.
 
--   Five themes:
-
-    -   `OKSolar Dark`
-    -   `OKSolar Light`
-    -   `OKSolar Red`
-    -   `OKSolar Green`
-    -   `OKSolar Purple`
-    -   `OKSolar Blue`
-    -   `OKSolar Sky`
+- Five themes:
+  - `OKSolar Dark`
+  - `OKSolar Light`
+  - `OKSolar Red`
+  - `OKSolar Green`
+  - `OKSolar Purple`
+  - `OKSolar Blue`
+  - `OKSolar Sky`
 
 Themes available for:
 
--   **Visual Studio Code** (view in [Visual Studio
-    Marketplace](https://marketplace.visualstudio.com/items?itemName=dieghernan.oksolar-theme))
--   **RStudio**
--   **TextMate/Sublime**
--   **Pygments** (compatible with the **Jekyll** assets site generator)
--   **highlight.js**
--   **Prism.js**
+- **Visual Studio Code** (view in [Visual Studio
+  Marketplace](https://marketplace.visualstudio.com/items?itemName=dieghernan.oksolar-theme))
+- **RStudio**
+- **TextMate/Sublime**
+- **Pygments** (compatible with the **Jekyll** assets site generator)
+- **highlight.js**
+- **Prism.js**
 
-```         
+```
 .
 ├── .github
 ├── assets
@@ -53,7 +52,7 @@ Themes available for:
 │   ├── hljs              // highlight.js (*.css | *.min.css | *.scss files)
 │   ├── prismjs           // prism.js (*.css | *.min.css | *.scss files)
 │   ├── pygments          // Pygments/Jekyll (*.css | *.min.css | *.scss files)
-│   ├── rstudio           // RStudio (*.rstheme files)
+│   ├── rstudio           // <deprecated> use <https://dieghernan.github.io/rstudiothemes/>
 │   ├── tmtheme           // TextMate/Sublime (*.tmTheme files)
 │   └── vscode            // Visual Studio Code Extension (Marketplace)
 ├── src
@@ -62,7 +61,7 @@ Themes available for:
 │...
 ```
 
---------------------------------------------------------------------------------
+---
 
 # OKSolar Light
 

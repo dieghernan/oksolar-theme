@@ -3,20 +3,12 @@ source("src/00_create_variants.R")
 
 
 # Create vscode (json) and RStudio (rstheme) variants using tmTheme as base
-src_styles <- list.files("src",
-  pattern = "guis.R$", full.names =
-    TRUE
-)
+src_styles <- list.files("src", pattern = "guis.R$", full.names = TRUE)
 
 
-current <- rstudioapi::getThemeInfo()$editor
 for (s in src_styles) {
   source(s)
 }
-
-#  My choice
-rstudioapi::applyTheme(current)
-
 
 #  Register themes ----
 library(jsonlite)
@@ -51,8 +43,6 @@ for (i in seq_len(nrow(the_df))) {
 }
 
 toJSON(tm, pretty = TRUE)
-
-
 
 
 # Package json
@@ -96,25 +86,26 @@ for (f in all_pygments) {
     file.path("./dist", "pygments", .)
   in_f <- readLines(f)
 
-
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_sass,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
 
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css_min,
     cache = FALSE,
     options = sass::sass_options(output_style = "compressed")
   )
 }
-
 
 
 ## Prismjs ----
@@ -138,19 +129,21 @@ for (f in all_prism) {
     file.path("./dist", "prismjs", .)
   in_f <- readLines(f)
 
-
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_sass,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
 
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css_min,
     cache = FALSE,
     options = sass::sass_options(output_style = "compressed")
@@ -178,19 +171,21 @@ for (f in all_hljs) {
     file.path("./dist", "hljs", .)
   in_f <- readLines(f)
 
-
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_sass,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
 
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css_min,
     cache = FALSE,
     options = sass::sass_options(output_style = "compressed")

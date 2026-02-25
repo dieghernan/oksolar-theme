@@ -6,7 +6,6 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#162D17",
         "foreground": "#A6A498"
       }
     },
@@ -341,17 +340,17 @@
     "editorGroupHeader.tabsBackground": "#182F17",
     "editorHoverWidget.background": "#182F17",
     "editorHoverWidget.border": "#637163",
-    "editorIndentGuide.background": "#637163",
+    "editorIndentGuide.background1": "#637163",
     "editorLineNumber.foreground": "#637163",
     "editorLink.activeForeground": "#819500",
-    "editorRuler.foreground": "#203A21",
+    "editorRuler.foreground": "#3A626F33",
     "editorSuggestWidget.background": "#182F17",
     "editorSuggestWidget.focusHighlightForeground": "#819500",
     "editorSuggestWidget.foreground": "#A6A498",
     "editorSuggestWidget.highlightForeground": "#819500",
     "editorSuggestWidget.selectedBackground": "#182F17",
     "editorSuggestWidget.selectedIconForeground": "#819500",
-    "editorWhitespace.foreground": "#203A21",
+    "editorWhitespace.foreground": "#3A626F33",
     "editorWidget.background": "#182F17",
     "focusBorder": "#819500",
     "foreground": "#A6A498",
@@ -413,7 +412,6 @@
     "tab.inactiveForeground": "#A6A498",
     "terminal.background": "#162D17",
     "terminal.border": "#2B4212",
-    "terminal.cursor": "#819500",
     "terminal.foreground": "#A6A498",
     "terminalCursor.background": "#162D17",
     "terminalCursor.foreground": "#819500",
